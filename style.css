@@ -14,7 +14,7 @@ body{
     align-self: center;
     padding: 0px;
     margin-top: 0px;
-    margin-bottom: 3em;
+    margin-bottom: 2em;
     border-bottom: black;
 }
 .navbar-info{
@@ -29,11 +29,14 @@ body{
 }
 .timer{
     text-align: center;
-    padding: 10px;
+    padding: 15px;
     margin: auto;
-    border-radius: 25%;
+    border-radius: 10%;
     background-color: cornflowerblue;
-    width: 8em;
+    width: 4em;
+    margin-bottom: 2em;
+    color: white;
+    font-size: xx-large;
 }
 .contain{
     background-color: rgba(6, 143, 143, 0.651);
@@ -42,7 +45,7 @@ body{
     color: white;
     height: 300px;
     width: 350px;
-    padding: 1em;
+    padding: 2em;
     border-radius: 10%;
     align-content: center;
     margin: auto;
@@ -70,4 +73,7 @@ body{
     text-align: center;
     color: white;
     border-radius: 6px;
+}
+#next-button{
+    display: none;
 }
